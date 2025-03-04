@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>table</title>
+  </head>
+  <style>
+    thead {
+      background-color: yellow;
+      text-align: center;
+    }
+    tbody {
+      background-color: red;
+      color: white;
+    }
+  </style>
+  <body>
+    <table
+      border="1"
+      cellspacing="0px"
+      cellpadding="5px"
+      align="center"
+      width="100%"
+    >
+      <thead>
+        <tr>sequi tempore, soluta veniam earum doloremque quis unde? Voluptates dolorum, earum dolorem repellendus eius nisi dolores iure eum consequuntur similique tempora laudantium nam distinctio, quisquam fugit nobis et necessitatibus? Rem quod mollitia delectus temporibus iusto vitae vero repellendus porro earum, assumenda sequi eos nobis sunt neque aut suscipit perferendis quaerat ipsa aliquid illum expedita veniam iure a ducimus? Quibusdam odit distinctio quisquam sunt illum porro labore excepturi facilis, ducimus optio reprehenderit, deserunt laboriosam facere voluptatum, sed laborum fugiat tenetur? Maiores veritatis hic, nulla eum dolorem beatae ratione non nobis, aperiam accusantium magnam corrupti vitae earum eos pariatur? Necessitatibus omnis, id earum neque natus sapiente, delectus odio eius minima optio rerum veritatis ex ipsam laboriosam nemo, cupiditate odit sint minus assumenda laudantium repellendus. Quas qui in, deserunt accusamus cumque provident distinctio laboriosam quibusdam accusantium. Laudantium blanditiis iste doloremque? Repudiandae maxime voluptas quam, maiores laborum eaque neque! Dolor ab nihil magni 
+          <th>Roll</th>
+          <th>Name</th>
+          <th>Address</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>1.</td>
+          <td>menuka</td>
+          <td>lalitpur</td>
+        </tr>
+        <tr>
+          <td>2.</td>
+          <td>puja</td>
+          <td>lalitpur</td>
+        </tr>
+        <tr>
+          <td>3.</td>
+          <td>sachin</td>
+          <td>lalitpur</td>
+        </tr>
+        <tr>
+          <td>4.</td>
+          <td>barsha</td>
+          <td>lalitpur</td>
+        </tr>
+      </tbody>
+    </table>
+    <br /><br /><br />
+    <table
+      border="1"
+      cellspacing="0px"
+      cellpadding="5px"
+      align="center"
+      width="100%"
+    >
+      <thead>
+        <tr>
+          <th>Roll</th>
+          <td>1.</td>
+          <td>2.</td>
+          <td>3.</td>
+          <td>4.</td>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <td>menuka</td>
+          <td>puja</td>
+          <td>sachin</td>
+          <td>barsha</td>
+        </tr>
+        <tr>
+          <th>Address</th>
+          <td>lalitpur</td>
+          <td>lalitpur</td>
+          <td>lalitpur</td>
+          <td>lalitpur</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h1>colspan and rowspan</h1>
+    <h3>cell that spans two colunms:</h3>
+    <table border="1">
+      <tr>
+        <th>name</th>
+        <th>Email</th>
+        <th colspan="2">phone</th>
+      </tr>
+      <tr>
+        <td>John Doe</td>
+        <td>john.doe@gmail.com</td>
+        <td>123-45-45</td>
+        <td>212-00-546</td>
+      </tr>
+    </table>
+    <h1>colspan and rowspan</h1>
+    <h3>cell that spans two colunms:</h3>
+    <table border="1">
+      <tr>
+        <th>Name</th>
+        <td>John Doe</td>
+      </tr>
+      '
+
+      <tr>
+        <th>Email</th>
+        <td>Johndoeoe@gmail.com</td>
+      </tr>
+
+      <tr>
+        <th rowspan="2">Phone</th>
+        <td>342342342</td>
+      </tr>
+
+      <tr>
+        <td>212121212</td>
+      </tr>
+    </table>
+
+    <table
+      border="1"
+      cellspacing="0px"
+      cellpadding="5px"
+      align="center"
+      width="100%"
+    >
+      <thead>
+        <tr>
+          <th>day/time</th>
+          <th>7am to 8am</th>
+          <th>7am to 8am</th>
+          <th>7am to 8am</th>
+          <th>7am to 8am</th>
+          <th>7am to 8am</th>
+          <th>7am to 8am</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>sunday</td>
+          <td>web tech</td>
+          <td>SAD</td>
+          <td rowspan="3">Break</td>
+          <td>DSA</td>
+          <td>STAT</td>
+          <td>JAVA</td>
+        </tr>
+        <tr>
+          <td>Monday</td>
+          <td>web tech</td>
+          <td>SAD</td>
+          <td>DSA</td>
+          <td>STAT</td>
+          <td>JAVA</td>
+        </tr>
+        <tr>
+          <td>Tuesday</td>
+          <td>web tech</td>
+          <td>SAD</td>
+          <td>DSA</td>
+          <td>STAT</td>
+          <td>JAVA</td>
+        </tr>
+        <tr>
+          <td>Saturday</td>
+          <td colspan="6">Holiday</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

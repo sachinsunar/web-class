@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="alert('hi i am loaded, i am window event')">
+    <h1>Mouse Events</h1>    
+    <input type="button" value="Click" onclick="alert('Hola, como estas')">
+    <input type="button" value=" Double Click" ondblclick="alert('Hi, Mouse pointer moves over me')">
+    <input type="button" value="Mouse Over" onmouseover="alert('hi,moves pointer moves over')">
+    <button onmouseout="alert('hi,moves pointer movesout')"> Mouse Out</button>
+
+
+    <h1>Keyboard event</h1>
+
+    onkeydown <input type="text" onkeydown="alert ('on key down')"><br><br>
+    onkeyup <input type="text" onkeyup="alert ('on key up')"><br><br>
+    onkeypress <input type="text" onkeypress="alert ('on key up')"><br><br>
+
+    <h1>Form Event</h1>
+    <form method="posts" onsubmit="myfunction()">
+        Enter name: <input type="text" name="fname">
+      
+        <input type="submit" value="submit">
+    </form>
+
+    <script>
+        function myfunction(){
+            alert("The form was submitted");
+        }
+    </script>
+
+    
+</body>
+</html>

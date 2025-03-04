@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Admission Form</h1>
+    <fieldset>
+        <legend>Enter Your Detail</legend>
+        <form  method="GET" action="">
+            
+            <label for="name">Full Name</label>
+            <input type="text" autofocus required id="name" placeholder="enter your name">
+            <br><br>
+
+            <label for="password">Password</label>
+            <input type="password"  required id="password" placeholder="create new password">
+            <br><br>
+
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" id="male"> <label for="male">male</label>
+            <input type="radio" name="gender" id="female"> <label for="female">female</label>
+            <br><br>
+
+            <label for="hobbies">Hobbies</label>
+            <input type="checkbox" name="hobbies" id="hobbies"><label for="hobbies">Music</label>
+            <input type="checkbox" name="hobbies" id="hobbies"><label for="hobbies">Dancing</label>
+            <input type="checkbox" name="hobbies" id="hobbies"><label for="hobbies">Football</label>
+            <br><br>
+
+            <label for="email">E-mail</label>
+            <input type="email"  required id="email" placeholder="enter your email">
+            <br><br>
+
+            <label for="date">Date</label>
+            <input type="date"  required id="date" >
+            <br><br>
+
+            <label for="number">Number</label>
+            <input type="number"  required id="number" min="0" max="100">
+            <br><br>
+            
+            <p>Message</p>
+            <textarea  cols="50" rows="10" ></textarea>
+            <br><br>
+
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option value="Nepal">Nepal</option>
+                <option value="India">India</option>
+                <option value="China">China</option>
+                <option value="USA" selected>USA</option>
+            </select>
+            <br><br>
+
+            <label for="vehicle">Choose vehicle to travel</label>
+            <select name="vehicle" id="vehicle">
+                <optgroup label="Two Wheeler">
+                <option >Bike</option>
+                <option >Scooter</option>
+            </optgroup>
+                <optgroup label="Four Wheeler" disabled>
+                <option >Car</option>
+                <option >Bus</option>
+            </optgroup>
+            </select>
+            <br><br>
+
+
+            <label for="">Cars</label>
+            <input list="cars">
+            <datalist id="cars">
+                <option value="Innova">
+                    <option value="Kwid">
+                    <option value="Etios">
+                    <option value="Swift">
+                    <option value="Duster">
+            </datalist>
+            <br><br>
+
+            <label for="">Note:</label>
+            <input type="text" value="THIS IS  READY ONLY" readonly>
+            <br><br>
+
+            <label for="">upload file</label>
+            <input type="file" accept="video/*">
+            <br><br>
+
+            <button>submit
+            </button>
+        
+
+
+            
+        
+
+
+        </form>
+    </fieldset>
+</body>
+</html>
