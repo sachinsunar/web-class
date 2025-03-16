@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+       body{
+        background: url(./483228702_628165733469632_6439916163819994662_n.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+       }
+
+
+       #register{
+        margin-top: 10vh;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+       }
+
+        form{
+           
+            background-color: rgba(44, 44, 44, 0.568);
+            padding: 40px;
+            width: 500px;
+            border-radius: 10px;
+           
+        }
+
+        input{
+           padding: 10px 150px;
+        }
+
+        h1
+        {
+            color:#fff;
+            text-align: center;
+        }
+
+        label{
+            font-style: italic;
+            color: #fff;
+            font-size: 18px;
+            font-family: sans-serif;
+        }
+
+        #submit{
+           
+            color: #fff;
+            padding: 10px 210px;
+            background-color: orangered;
+            border-radius: 10px;
+            font-family: sans-serif;
+            font-size: 18px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="register">
+    <form action="">
+        <h1>Register Here</h1><br><br>
+
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname"><br><br>
+
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname">
+        <br><br>
+
+        <label for="age">Your Age:</label><br>
+        <input type="number" id="age"><br><br>
+        
+        <label for="email">Email: </label><br>
+        <input type="email" id="email"><br><br>
+
+        <label >Gender:</label>  <br><br>
+        <input type="radio" id="male" name="gender"> <label for="gender">male</label> &nbsp;  &nbsp;
+        <input type="radio" id="female" name="gender"><label for="gender">female</label>
+        <br><br>
+
+        <label for="language">Known language:</label><br><br>
+
+        <input type="checkbox"><label for="">Hindi</label> &nbsp; &nbsp;
+        <input type="checkbox"><label for="">English</label> &nbsp; &nbsp;
+        <input type="checkbox"><label for="">Urdu</label> &nbsp; &nbsp;
+        <br><br>
+
+        <button id="submit">Submit</button>
+
+    </form>
+</div>
+</body>
+</html>
