@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Outfit", sans-serif;
+
+        }
+
+        ul li {
+            font-size: 18px;
+            display: flex;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: #000;
+            padding: 10px 20px;
+
+        }
+
+        ul li a:hover {
+            color: red;
+
+        }
+
+        img {
+            height: 92vh;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: aliceblue;
+            position: sticky;
+            top: 0;
+            bottom: 0;
+
+
+        }
+
+
+
+        nav h1 {
+            display: flex;
+            align-items: center;
+            padding: 10px 30px;
+            margin-top: 10px;
+            font-size: 35px;
+            font-family: "Cedarville Cursive", cursive;
+            font-weight: 400;
+            font-style: normal;
+            color: palevioletred;
+        }
+
+        nav ul {
+            display: flex;
+
+        }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            background-color: antiquewhite;
+
+
+        }
+
+        .hero h1 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 80px;
+            color: palevioletred;
+        }
+
+        .hero p {
+            font-size: 20px;
+            color: saddlebrown;
+        }
+
+        button {
+            border-radius: 30px;
+            color: #fff;
+            background-color: palevioletred;
+            border-style: none;
+            font-size: 30px;
+            padding: 10px 20px;
+            margin: 20px 0;
+
+        }
+
+        button:hover {
+            background-color: blue;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 50px;
+            color: brown;
+            margin: 100px 0 0 0;
+
+        }
+
+        .about p {
+            text-align: center;
+            color: brown;
+        }
+
+        .about-row {
+            display: flex;
+            margin: 70px 200px;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+        .row2 p {
+            color: brown;
+            font-size: 18px;
+            margin: 10px;
+            padding-left: 200px;
+            text-align: justify;
+        }
+
+        .about-row img {
+            height: 50vh;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Outfit:wght@100..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1>SachinSunar.</h1>
+
+        <ul>
+            <li> <a href="#">Home</a></li>
+            <li> <a href="#about">About</a></li>
+            <li> <a href="#">Projects</a></li>
+            <li> <a href="#">Contact</a></li>
+
+        </ul>
+
+
+
+    </nav>
+
+
+    <div class="hero">
+        <div class="leftside">
+            <h1>Hi, <br> <span style="color: lightskyblue;">I am Web Developer</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo perferendis nulla autem fuga non
+                adipisci,<br>
+                praesentium assumenda cupiditate, eos rerum, voluptas temporibus voluptates hic ipsam. Reprehenderit,
+                <br>
+                cumque deleniti? Ipsa, impedit?
+            </p>
+            <button>Portfolio</button>
+        </div>
+        <div class="rightside">
+            <img src="./82ef748b-c0b2-4fdc-a4eb-91da9d183f9e.png" alt="">
+        </div>
+    </div>
+
+
+    <div class="about" id="about">
+        <h1 class="title">About me</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, ad.</p>
+    </div>
+
+    <div class="about-row">
+        <div class="row1">
+            <img src='https://www.sachinsunar.com.np/img/sachin1.jpg' alt="photos">
+        </div>
+
+        <div class="row2">
+            <h1 style="color: brown; padding-left:210px;">Hi there, This is Sachin Sunar, A full stack web developer.
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam a quo voluptas dicta debitis mollitia
+                atque repudiandae animi, vel aliquid fugiat ratione perferendis obcaecati asperiores hic unde istebr
+                eaque, beatae modi eos omnis delectus incidunt culpa quasi? Mollitia quasi, in animi quas commodi, porro
+
+                at iste quaerat eligendi modi alias doloribus itaque ipsam deleniti reprehenderit labore eveniet tenetur
+
+                eius dolorem, nobis laudantium delectus praesentium. Nemo sit vel in animi reprehenderit repellendus
+
+                consequuntur doloribus nulla voluptatem ad voluptatum architecto corrupti fugiat quos aspernatur
+                blanditiis, quia velit consequatur est tempora nam! Eos officiis fuga necessitatibus. Ullam dolore
+                perspiciatis nemo quaerat placeat! Id! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, br
+                eius, possimus dicta ut nisi fugit magnam voluptas reprehenderit natus ab maiores modi deserunt impedit
+                nemo quod non rem in blanditiis.
+            </p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
