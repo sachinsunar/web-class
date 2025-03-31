@@ -1,0 +1,15 @@
+<Classes xmlns:c="http://www.Mycollege.com/carrebean"
+         xmns:n ="http://www.mycollege.com/nims">
+         <c:Student>
+           <c:name> Ram </c:name>
+           <c:name> 22 </c:name>
+           <c:name> Third Semester </c:name>
+         </c:Student>
+        
+        <n: Student>
+           <n: name> Ram </n:name>
+           <n: age> 23 </n:age>
+           <n:class> forth sem <n/:class>
+        </n:Student>
+        
+</Classes>

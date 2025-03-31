@@ -1,0 +1,14 @@
+<root xmlns:h="http://www.org.com/hospital"
+         xmns:s ="http://www.w3.com/school">
+         <h:Information>
+           <h:name> Hari </h:name>
+           <h:name> 22 </h:name>
+           <h:name> male </h:name>
+         </h:Information>
+        
+        <s:Information>
+           <s:name> Hari </s:name>
+           <s:age> 31 </s:age>
+           <s:gender> male </s:gender>
+        </n:Information>      
+</root>

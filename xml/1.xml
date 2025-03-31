@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<college>
+  <student>
+   <FirstName> Ram </FirstName>
+   <LastName> Rai </LastName>
+   <conatct> 9821234211 </conatct>
+   <email> ramu@gmail.com </email>
+   <address>
+    <city>Kathmandu</city>
+    <state>Bagmati</state>
+    <pin>44600</pin>
+   </address>
+  </student>
+</college>
