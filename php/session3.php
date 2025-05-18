@@ -16,7 +16,7 @@ session_start();
 
 
            //destroy the session
-           session_destroy();
+           session_destroy();   
     ?>
 </body>
 </html>
